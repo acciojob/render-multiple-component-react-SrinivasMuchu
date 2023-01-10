@@ -1,9 +1,13 @@
-import React, {Component, useState} from "react";
+import React, {useState} from "react";
 import '../styles/App.css';
 
 const App = () => {
+  const[projectname,setProject]=useState("DREAM PROJECT");
+  const[projectdescription,setDescription]=useState(" ");
   return (
-    <div id="main"></div>
+    <div id="main">
+      
+    </div>
   )
 }
 
